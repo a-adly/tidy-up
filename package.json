@@ -17,10 +17,6 @@
     "electron": "^1.6.11",
     "gulp": "^3.9.1",
     "gulp-dirty-markup": "^1.0.2",
-    "jquery": "^3.2.1",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "style-loader": "^0.18.2",
-    "webpack": "^3.5.1"
+    "jquery": "^3.2.1"
   }
 }
