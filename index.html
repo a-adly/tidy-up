@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <textarea id="#code" name="dirtycode" class="dirty" style="margin: 0px; width: 430px; height: 393px;"></textarea>
+    <br>
+    <br>
+    <button data-label="Clean Code" id="htmlclean">CLEAN HTML</button>
+  </body>
+<script>var options = { 'replace-nbsp': true }; var dirtymarkup = require('clean-html'); const $ = require('jQuery'); var loading = function(e) { e.preventDefault(); e.stopPropagation(); e.target.classList.add('loading'); e.target.setAttribute('disabled','disabled'); setTimeout(function(){ e.target.classList.remove('loading'); e.target.removeAttribute('disabled'); dirtymarkup.clean($('.dirty').val(), options, function(html) { $('.dirty').val(html); }); },1500); }; var btns = document.querySelectorAll('button'); for (var i=btns.length-1;i>=0;i--) { btns[i].addEventListener('click',loading); }</script>
+</html>

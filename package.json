@@ -1,0 +1,26 @@
+{
+  "name": "tidyupcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Yay!\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clean-css": "^4.1.7",
+    "clean-html": "^1.4.3",
+    "dirty-markup": "^1.0.7",
+    "electron": "^1.6.11",
+    "gulp": "^3.9.1",
+    "gulp-dirty-markup": "^1.0.2",
+    "jquery": "^3.2.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.1"
+  }
+}
