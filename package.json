@@ -1,22 +1,27 @@
 {
   "name": "tidyupcode",
   "version": "1.0.0",
-  "description": "",
+  "description": "Clean HTML/CSS/JS Code.",
   "main": "index.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Yay!\""
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Electron",
+    "Clean Code",
+    "HTML",
+    "Optimisation"
+  ],
+  "author": "Liam",
   "license": "ISC",
   "dependencies": {
-    "clean-css": "^4.1.7",
-    "clean-html": "^1.4.3",
-    "dirty-markup": "^1.0.7",
-    "electron": "^1.6.11",
-    "gulp": "^3.9.1",
-    "gulp-dirty-markup": "^1.0.2",
-    "jquery": "^3.2.1"
+    "clean-css": "4.1.9",
+    "clean-html": "1.5.0",
+    "dirty-markup": "1.0.7",
+    "electron": "1.7.9",
+    "gulp": "3.9.1",
+    "gulp-dirty-markup": "1.0.2",
+    "jquery": "3.2.1"
   }
 }
