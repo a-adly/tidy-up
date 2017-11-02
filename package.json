@@ -4,7 +4,6 @@
   "description": "Clean HTML/CSS/JS Code.",
   "main": "index.js",
   "scripts": {
-    "start": "electron .",
     "test": "echo \"Yay!\""
   },
   "keywords": [
