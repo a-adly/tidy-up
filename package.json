@@ -15,12 +15,12 @@
   "author": "Liam",
   "license": "ISC",
   "dependencies": {
-    "clean-css": "4.1.9",
+    "clean-css": "4.2.0",
     "clean-html": "1.5.0",
     "dirty-markup": "1.0.7",
-    "electron": "^1.8.2-beta.4",
+    "electron": "^2.0.6",
     "gulp": "3.9.1",
     "gulp-dirty-markup": "1.0.2",
-    "jquery": "3.2.1"
+    "jquery": "3.3.1"
   }
 }
